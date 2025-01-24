@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="./styling.gana.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <button class="menu-button">
+        <img src="./imag/icon/icons8-menu-384.png" alt="Toggle Sidebar">
+    </button>
+    <div class="container">
+        <aside class="sidebar">
+            <ul class="menu">
+                <li>Discover</li>
+                <li>My Library</li>
+                <li>Radio</li>
+                <li>Settings</li>
+            </ul>
+            <h3>Your Playlists</h3>
+            <div class="playlist">
+                <!-- Playlist items will be dynamically populated here -->
+            </div>
+        </aside>
+   
+        <!-- Main Content -->
+        <main class="main">
+            <div class="about">
+                <header class="header">
+                    <nav>
+                        <a href="#" class="active">Discover</a>
+                        <a href="#">Trending</a>
+                        <a href="#">Top Artists</a>
+                    </nav>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search Music...">
+                        <button type="submit">
+                            <img src="./imag/icon/search.png" alt="Search">
+                        </button>
+                    </div>
+                </header>
+
+                <!-- Featured Section -->
+                <section class="featured">
+                    <div class="info">
+                        <h1>Featured Album</h1>
+                        <p>Discover the latest hits and trending songs of the week.</p>
+                        <div class="buttons">
+                            <button>Play Now</button>
+                            <button>Add to Library</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Popular Section -->
+            <section class="popular">
+                <h2>Popular Songs</h2>
+                <div id="popular-songs-list"></div>
+            </section>
+
+            <!-- Top Artists Section -->
+            <section class="top-artists">
+                <h2>Top Artists</h2>
+                <div id="artist-list"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer Controls -->
+    <footer class="footer">
+        <div class="wave">
+            <img class="current-song-img" src="./imag/icon/icons8-circled-play-50.png" alt="current-song">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+        </div>
+        <div class="current-song">
+            <h5>Om Namah Shivay <br>
+                <div class="subtitle">Shivay</div>
+            </h5>
+        </div>
+        <div class="controls">
+            <button>
+                <img src="./imag/icon/backward-button-icon.png" alt="prev_song_btn">
+            </button>
+            <button>
+                <img src="./imag/icon/icons8-circled-play-50.png" alt="play_song_btn">
+            </button>
+            <button>
+                <img src="./imag/icon/forward-button-icon.png" alt="next_song_btn">
+            </button>
+        </div>
+        <div class="progress">
+            <span>0:00</span>
+            <input type="range" min="0" max="100" value="50">
+            <span>3:45</span>
+        </div>
+        <div class="volume">
+            <img src="./imag/icon/icons8-volume-50.png" alt="volume">
+            <input type="range" min="0" max="100" value="80">
+        </div>
+    </footer>
+
+    <script src="./app.gana.js"></script>
+</body>
+</html>
