@@ -15,10 +15,10 @@ A simple and interactive music player built with HTML, CSS, and JavaScript. This
 
 ## Screenshots
 
-![Music Player Screenshot]("./Pictures/Screenshots/Screenshot 2025-01-24 232839.png")  
+![Music Player Screenshot]("./Lenovo/Pictures/Screenshots/Screenshot 2025-01-24 232839.png")  
 *Example of the music player interface*
 
-> **Note**: Replace `./Pictures/Screenshots/Screenshot 2025-01-24 232839.png` with the path to the screenshot image you want to include.
+> **Note**: Replace `./Lenovo/Pictures/Screenshots/Screenshot 2025-01-24 232839.png` with the path to the screenshot image you want to include.
 
 ## Technologies Used
 
