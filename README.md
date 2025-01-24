@@ -15,7 +15,7 @@ A simple and interactive music player built with HTML, CSS, and JavaScript. This
 
 ## Screenshots
 
-![Music Player Screenshot](path_to_your_screenshot.png)  
+![Music Player Screenshot]("C:\Users\Lenovo\Pictures\Screenshots\Screenshot 2025-01-24 232839.png")  
 *Example of the music player interface*
 
 > **Note**: Replace `path_to_your_screenshot.png` with the path to the screenshot image you want to include.
