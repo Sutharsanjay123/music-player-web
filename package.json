@@ -1,0 +1,27 @@
+{
+  "name": "music-website",
+  "version": "1.0.0",
+  "description": "A simple and interactive music player built with HTML, CSS, and JavaScript. This application allows users to play, pause, skip, and navigate through songs, while also displaying a playlist, popular songs, and artist information.",
+  "main": "app.gana.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sutharsanjay123/Music-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sutharsanjay123/Music-clone/issues"
+  },
+  "homepage": "https://github.com/Sutharsanjay123/Music-clone#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

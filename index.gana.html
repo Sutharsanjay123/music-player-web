@@ -12,44 +12,50 @@
         <img src="./imag/icon/icons8-menu-384.png" alt="Toggle Sidebar">
     </button>
     <div class="container">
-        <aside class="sidebar">
-            <ul class="menu">
-                <li>Discover</li>
-                <li>My Library</li>
-                <li>Radio</li>
-                <li>Settings</li>
-            </ul>
-            <h3>Your Playlists</h3>
-            <div class="playlist">
-                <!-- Playlist items will be dynamically populated here -->
-            </div>
-        </aside>
-   
+    <aside class="sidebar" id="sidebar">
+        <ul class="menu">
+            <li><a href="index.gana.html" class="active">Discover</a></li>
+            <li><a href="index.gana.html" class="my-library">My Library</a></li>
+            <!-- <li><a href="setting.html">Settings</a></li> -->
+        </ul>
+        <h3>Your Playlists</h3>
+        <div class="playlist">
+            <!-- Playlist items will be dynamically populated here -->
+        </div>
+    </aside>
+
+        
         <!-- Main Content -->
         <main class="main">
             <div class="about">
                 <header class="header">
                     <nav>
-                        <a href="#" class="active">Discover</a>
-                        <a href="#">Trending</a>
-                        <a href="#">Top Artists</a>
+                        <a href="index.gana.html" class="active">Discover</a>
+                        <a href="index.gana.html">My libery</a>
+                        <!-- <a href="setting.html">Setting</a> -->
                     </nav>
                     <div class="search-bar">
-                        <input type="text" placeholder="Search Music...">
-                        <button type="submit">
-                            <img src="./imag/icon/search.png" alt="Search">
-                        </button>
+                    <input type="text" placeholder="Search Music..." id="search-input">
+                        <ul id="suggestions"></ul>
                     </div>
-                </header>
 
+
+
+                </header>
+                   <div class="profile-icon">
+                   <!-- <img id="profile-img" src="./imag/profile.jpg" alt="User Profile" /> -->
+                 <span id="profile-name" class="profile-name">Guest</span>
+                </div>
+ 
                 <!-- Featured Section -->
                 <section class="featured">
                     <div class="info">
                         <h1>Featured Album</h1>
                         <p>Discover the latest hits and trending songs of the week.</p>
                         <div class="buttons">
-                            <button>Play Now</button>
-                            <button>Add to Library</button>
+                            <button id="info-play-btn">Play Now</button>
+                           <button id="add-to-library">Add to Library</button>
+
                         </div>
                     </div>
                 </section>
@@ -58,7 +64,14 @@
             <!-- Popular Section -->
             <section class="popular">
                 <h2>Popular Songs</h2>
-                <div id="popular-songs-list"></div>
+                <div id="popular-songs-list">
+                    <div class="popular-songs">
+  <img src="song.jpg" alt="Song" />
+  <h4 class="song-title">This is a very long song name that should be truncated</h4>
+  <p class="subtital">Artist Name</p>
+</div>
+
+                </div>
             </section>
 
             <!-- Top Artists Section -->
@@ -104,6 +117,8 @@
         </div>
     </footer>
 
-    <script src="./app.gana.js"></script>
+   <script src="./songs.js"></script>
+   <script src="./app.gana.js"></script>
+
 </body>
 </html>
